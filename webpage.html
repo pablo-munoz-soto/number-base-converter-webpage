@@ -9,12 +9,12 @@
     <style>
       html {
         font-family: 'Mukta', sans-serif;
+		font-size: 30px;
 		background-color: #2658EA;
       }
 
       body {
         width: 50%;
-        max-width: 800px;
         min-width: 480px;
         margin: 0 auto;
       }
@@ -28,10 +28,16 @@
 	  height: 50px;
 	  }
 	  
+	  input{
+	  height:30px;
+	  }
+	  
 
-      .lastResult {
-        color: white;
+      p {
+        color: black;
+		background-color: #F02C11;
         padding: 3px;
+		visibility:hidden;
       }
     </style>
   </head>
@@ -39,11 +45,22 @@
    <h1>
     Number Base Changer
    </h1>
+   
    <div>
-    <label for="number in base 10"><strong>Enter your number in base 10:</strong></label>
-	<input id="number in base 10" type="number" placeholder="">
+    <label for="number"><strong>Enter your number in base 10:</strong></label>
+	<input id="numberInput" type="number">
    </div>
+   
    <div>
     <label for="base"><strong>Enter the base you want the number in:</strong></label>
-	<input id="base" type="number" placeholder="">
+	<input id="baseInput" type="number">
    </div>
+   
+   <button type="button"> Convert</button>
+   
+   <p class="result1"></p>
+   <p class="result2"></p>
+   
+   <script src="main.js" defer></script>
+   </body>
+ </html>
