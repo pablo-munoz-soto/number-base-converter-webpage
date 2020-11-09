@@ -1,0 +1,38 @@
+html {
+    font-family: 'Mukta', sans-serif;
+        font-size: 30px;
+        background-color:white;
+  }
+
+body {
+    width: 50%;
+    min-width: 480px;
+    margin: 0 auto;
+  }
+  
+h1 {
+  text-align:center;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 22px;
+}
+
+
+#inputs {
+    background-color: #05bf9d;
+    border-radius: 22px;
+    padding: 12px;
+
+}
+  
+input{
+  height:30px;
+}
+  
+
+  p {
+    color: black;
+    background-color: #F02C11;
+    padding: 3px;
+    visibility:hidden;
+  }
