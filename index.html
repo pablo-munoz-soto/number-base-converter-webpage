@@ -5,62 +5,29 @@
 
     <title>Number base changer</title>
 	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
-
-    <style>
-      html {
-        font-family: 'Mukta', sans-serif;
-		font-size: 30px;
-		background-color: #2658EA;
-      }
-
-      body {
-        width: 50%;
-        min-width: 480px;
-        margin: 0 auto;
-      }
-	  
-	  h1 {
-	  text-align:center;
-	  }
-	  
-	  div{
-	  background-color: #F02C11;
-	  height: 50px;
-	  }
-	  
-	  input{
-	  height:30px;
-	  }
-	  
-
-      p {
-        color: black;
-		background-color: #F02C11;
-        padding: 3px;
-		visibility:hidden;
-      }
-    </style>
+  <link href= "style.css" rel="stylesheet">
   </head>
   <body>
-   <h1>
-    Number Base Changer
-   </h1>
-   
-   <div>
-    <label for="number"><strong>Enter your number in base 10:</strong></label>
-	<input id="numberInput" type="number">
-   </div>
-   
-   <div>
-    <label for="base"><strong>Enter the base you want the number in:</strong></label>
-	<input id="baseInput" type="number">
-   </div>
-   
-   <button type="button"> Convert</button>
-   
-   <p class="result1"></p>
-   <p class="result2"></p>
-   
-   <script src="main.js" defer></script>
-   </body>
- </html>
+    <h1>
+     Number Base Changer
+    </h1>
+    
+    <div id="inputs">
+    <div>
+     <label for="number"><strong>Enter your number in base 10:</strong></label>
+   <input id="numberInput" type="number">
+    </div>
+    
+    <div>
+     <label for="base"><strong>Enter the base you want the number in:</strong></label>
+   <input id="baseInput" type="number">
+    </div>
+    
+    <button type="button"> Convert</button>
+  </div>
+    <p class="result1"></p>
+    <p class="result2"></p>
+    
+    <script src="main.js" defer></script>
+    </body>
+  </html>
