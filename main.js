@@ -13,7 +13,7 @@ function changeBase(){
 		alert("You need to write both a number and a base");
 		return;
 	}
-	if (base<2 | base%1!=0){
+	if (base<2 | base%1!=0 | base>10){
 		alert("enter a valid base");
 		return;
 	}
